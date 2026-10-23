@@ -1,0 +1,27 @@
+/* 1. COLOR PALETTE */
+:root {
+  --gold: #d4af37;
+  --black: #231f20;
+  --off-white: #eff1f3;
+  --white: #ffffff;
+  --muted: #b8b5b5;
+}
+
+/* 2. GENERAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 85px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--black);
+  color: var(--off-white);
+  line-height: 1.7;
+}
