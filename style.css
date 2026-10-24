@@ -25,3 +25,24 @@ body {
   color: var(--off-white);
   line-height: 1.7;
 }
+
+a {
+  color: inherit;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+.navbar {
+  min-height: 80px;
+  padding: 16px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  background-color: var(--black);
+  border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+}
