@@ -62,3 +62,19 @@ h3 {
   font-size: 2rem;
   font-family: Georgia, serif;
 }
+
+.navbar nav {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+}
+
+.navbar nav a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.25s ease;
+}
+
+.navbar nav a:hover {
+  color: var(--gold);
+}
